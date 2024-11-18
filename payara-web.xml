@@ -1,0 +1,13 @@
+<payara-web-app xmlns="http://www.payara.fish/payara-web-app"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="http://www.payara.fish/payara-web-app
+                http://www.payara.fish/payara-web-app.xsd">
+    <security-role-mapping>
+        <role-name>admin</role-name>
+        <group-name>admin</group-name>
+    </security-role-mapping>
+    <security-role-mapping>
+        <role-name>user</role-name>
+        <group-name>user</group-name>
+    </security-role-mapping>
+</payara-web-app>
